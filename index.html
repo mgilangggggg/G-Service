@@ -12,9 +12,9 @@
 
 <body>
     <!-- Nav section start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">My Porto</a>
+            <a class="navbar-brand" href="/">SERVICE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -54,15 +54,60 @@
 
     <!-- First layout start -->
     <div class="container-fluid bg-dark text-light" style="height: 100vh;">
+        <!-- Carousel images -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner no-padding">
+                <div class="carousel-item active">
+                    <img src="assets/carousel1.jpg" class="d-block w-100" alt="no image" style="height: 500px">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Layanan yang berkualitas dan terjamin</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item no-padding">
+                    <img src="assets/carousel2.jpg" class="d-block w-100" alt="no image" style="height: 500px">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item no-padding">
+                    <img src="assets/carousel3.jpg" class="d-block w-100" alt="no image" style="height: 500px">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <div class="row text-center align-items-center">
             <div class="col-8">
                 WELCOME TO MY HOMEPAGE
             </div>
             <div class="col-4">
-                <img src="https://placehold.co/150" alt="my-image" style="width: 100%;">
+                <img src="" alt="my-image" style="width: 100%;">
                 IMAGE
             </div>
         </div>
+        <!-- End Carousel images -->
     </div>
     <!-- First layout end -->
 
